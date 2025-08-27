@@ -153,6 +153,8 @@ $$\mathbf{A} = \mathbf{V} \mathbf{\Lambda} \mathbf{V}^\top$$
 where $\mathbf{V} = [\mathbf{v}_1, \ldots, \mathbf{v}_r] \in \mathbb{R}^{d \times r}$ is the matrix of eigenvectors and $\mathbf{\Lambda} = \text{diag}(\lambda_1, \ldots, \lambda_r) \in \mathbb{R}^{r \times r}$ is the diagonal matrix of eigenvalues.
 This decomposition is known as the *eigenvalue decomposition* of $\mathbf{A}$.
 
+# there's a slight miss-typo in the visualisation of the eigenvalue decomposition of A. The second matrix, $\lambda$, or the diagonal matrix of eigenvalues has $\lambda_2$ instead of $\lambda_r$.
+
 <center><img src="images/linalg_eigs.svg" class="responsive-img"></center>
 
 Using our outer product definition of matrix multiplication, we can equivalently write the eigenvalue decomposition as
